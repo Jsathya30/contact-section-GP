@@ -1,0 +1,121 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+#contact{
+	height:100vh;
+}
+.container{
+	width:90%;
+	margin:auto;
+}
+.map{
+	display:block;
+}
+.row{
+	width:100%;
+	display:flex;
+}
+/* .col1{ */
+	/* width:40%; */
+	/* padding:10px; */
+/* } */
+/* .col2{ */
+	/* width:60%; */
+	/* padding:10px; */
+/* } */
+#name, #mail, #msg,#sub{
+	padding:12px;
+	border:1px solid silver;
+}
+.c,.d,.e{
+	padding-top:10px;
+}
+.p{
+	display:flex;
+	
+}
+/* .b{ */
+	
+	/* padding-left:13rem; */
+/* } */
+
+
+/* #name, #mail{ */
+	
+	/* width:160%; */
+	/* border-radius:5px; */
+/* } */
+/* .a input{ */
+	/* margin:0; */
+/* } */
+#sub{
+   
+	width:101%;
+	border-radius:5px;
+}
+#msg{
+	width:101%;
+	padding-bottom:6rem;
+	border-radius:5px;
+}
+#btn{
+	padding:10px 20px;
+	background-color:orange;
+	border:none;
+}
+/* .e{ */
+	/* padding-left:45%; */
+/* } */
+i{
+	background-color:orange;
+	padding:10px;
+	font-size:1.5rem;
+	border-radius:5px;
+}
+.icon{
+	padding-bottom:50px;
+	padding-top:10px;
+	
+}
+.card{
+	padding-top:30px;
+}
+.address{
+	display:flex;
+}
+.content{
+	padding-left:10px;
+}
+
+#btn:hover{
+	opacity:0.8;
+	font-weight:bold;
+}
+input::placeholder{
+	text-align:left;
+}
+.title{
+	color:#818589;
+	font-size:12px;
+	padding:20px 5px;
+	position:relative;
+	max-width:250px;
+	
+}
+.title::after{
+	content:"";
+	background-color:#FFA500;
+	position:absolute;
+	width:150px;
+	height:1px;
+	display:block;
+	right:0;
+	top:50%;
+}
+h1{
+	padding-bottom:20px;
+	
+	
+}

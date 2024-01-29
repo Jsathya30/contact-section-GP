@@ -1,0 +1,85 @@
+/* mobile view*/
+
+@media(min-width:320px){
+	.row{
+	flex-wrap:wrap;
+    }
+	.col1{
+		width:100%;
+		
+	}
+	.col2{
+		width:100%;
+		font-size:1rem;
+	}
+	#name, #mail{
+	
+	width:100%;
+	border-radius:5px;
+   }
+   .b{
+	padding-left:1rem;
+    }
+	.e{
+	padding-left:30%;
+    }
+
+}
+
+/* ipad view */
+
+@media(min-width:760px){
+	
+	.row{
+	flex-wrap:wrap;
+    }
+	.col1{
+		width:100%;
+		order:1;
+	}
+	.col2{
+		width:100%;
+		order:2;
+		font-size:1.5rem;
+	}
+	#name, #mail{
+	
+	width:170%;
+	border-radius:5px;
+   }
+   .b{
+	padding-left:10.6rem;
+    }
+	.e{
+	padding-left:40%;
+    }
+}
+
+/* desktop view */
+@media(min-width:960px){
+	
+	.col1{
+	width:40%;
+	padding:10px;
+	}
+	.col2{
+	width:60%;
+	padding:10px;
+	font-size:2rem;
+    }
+	#name, #mail{
+	
+	width:160%;
+	border-radius:5px;
+    }
+	.b{
+	
+	padding-left:13rem;
+    }
+
+	.e{
+	padding-left:45%;
+    }
+	
+	
+}
